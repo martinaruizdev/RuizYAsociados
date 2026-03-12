@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Áreas de Servicio | Ruiz y Asociados</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Lato:wght@300;400;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css">
+
+</head>
+
+<body class="bg-white text-charcoal antialiased" data-page="servicios">
+  <div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+    <div class="layout-container flex h-full grow flex-col">
+      <!-- Navigation Header -->
+      <header class="sticky top-0 z-50 w-full bg-navy text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between relative">
+
+          <!-- Logo -->
+          <div class="flex items-center space-x-2 z-10">
+            <div class="w-10 h-10 border-2 border-gold flex items-center justify-center flex-shrink-0">
+              <span class="text-gold font-serif text-2xl">R</span>
+            </div>
+            <span class="text-xl font-serif tracking-widest uppercase">Ruiz y Asociados</span>
+          </div>
+
+          <!-- Desktop Links -->
+          <nav class="hidden md:flex space-x-8 text-sm font-light tracking-wide">
+            <a class="nav-link hover:text-gold transition-colors" href="../index.html" data-page="inicio">Inicio</a>
+            <a class="nav-link hover:text-gold transition-colors" href="nosotros.html" data-page="nosotros">Nosotros</a>
+            <a class="nav-link hover:text-gold transition-colors" href="#" data-page="servicios">Servicios</a>
+              <a class="nav-link hover:text-gold transition-colors" href="abogado-penalista.html" data-page="penalista">Abogados Penalistas</a>
+  <a class="nav-link hover:text-gold transition-colors" href="contacto.html" data-page="contacto">Contacto</a>
+          </nav>
+
+          <!-- CTA + Hamburger -->
+          <div class="flex items-center gap-4 z-10">
+            <a class="hidden lg:flex bg-gold hover:bg-opacity-90 text-navy font-bold py-2.5 px-6 rounded-sm transition-all duration-300 text-sm uppercase tracking-tighter"
+              href="tel:1151200175">
+              Comuníquese al 11 5120 0175
+            </a>
+            <button id="menu-toggle" class="md:hidden text-white p-1" aria-label="Abrir menú" aria-expanded="false">
+              <span class="material-symbols-outlined" id="menu-icon">menu</span>
+            </button>
+          </div>
+
+          <!-- Mobile Menu -->
+          <div id="mobile-menu"
+            class="hidden absolute top-full left-0 w-full bg-navy border-t border-gold border-opacity-30 shadow-xl md:hidden">
+            <div class="flex flex-col px-6 py-4 space-y-4 text-sm font-light tracking-wide">
+              <a class="nav-link hover:text-gold transition-colors py-2 border-b border-white border-opacity-10"
+                href="../index.html" data-page="inicio">Inicio</a>
+              <a class="nav-link hover:text-gold transition-colors py-2 border-b border-white border-opacity-10"
+                href="nosotros.html" data-page="nosotros">Nosotros</a>
+              <a class="nav-link hover:text-gold transition-colors py-2" href="#" data-page="servicios">Servicios</a>
+              <a class="nav-link hover:text-gold transition-colors py-2" href="abogado-penalista.html" data-page="penalista">Abogados Penalistas</a>
+              <a class="nav-link hover:text-gold transition-colors py-2" href="contacto.html" data-page="contacto">Contacto</a>
+              <a class="bg-gold text-navy font-bold py-3 px-6 text-center rounded-sm uppercase tracking-tighter mt-2"
+                href="tel:1151200175">
+                Comuníquese al 11 5120 0175
+              </a>
+            </div>
+          </div>
+
+        </nav>
+      </header>
+      <main class="flex-1">
+        <!-- Hero Section for Areas -->
+<!-- DESPUÉS -->
+<div class="relative py-24 px-6 overflow-hidden">
+  <!-- Imagen de fondo igual al index -->
+  <div class="absolute inset-0 z-0">
+    <img 
+      alt="Oficina Legal Moderna" 
+      class="w-full h-full object-cover"
+      src="../assets/home-banner2.jpg"
+    />
+    <div class="absolute inset-0 hero-overlay"></div>
+  </div>
+  <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+              <div class="w-20 h-1 bg-gold mb-6"></div>
+              <h1 class="text-white text-5xl md:text-7xl font-serif leading-tight mb-6">
+                Nuestras Áreas de <br /><span class="italic text-gold">Servicio</span>
+              </h1>
+              <p class="text-silver text-xl md:text-2xl font-light max-w-2xl leading-relaxed">
+                Excelencia jurídica en diversas especialidades para proteger sus derechos con profesionalismo, ética y
+                compromiso absoluto hacia nuestros clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid of Practice Areas -->
+        <div class="bg-gray-50 py-24">
+          <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Area Card: Civil -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Close up of a wooden gavel and law books"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzdQwegAP2gvs--uPddiHUIbeogHMmU0oVFPXELMWYgnArHbYw_Ro_wAVs8sEluckWL2E7yyrjXUOvFuGmWNj53VOzZtoXfUlVGUTP1qtiJAY0MSwSv7Gxzx6pwPc0Sh6wdrs9-JBjLdK-zwvKcurmSq6-5oJu2YIqsBgNVoxanVa8uJgjFGhiMSOOinlP1XVZKmYpVp1mtly1SZRIuJxVklV1URdxeixbPKWG6ahbiNmuzmhJtb8ABPPv2o-JEEUIFCQFx-IitnQ" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">gavel</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho Civil</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Soluciones integrales en contratos, reclamos por daños y perjuicios, disputas de propiedad y
+                    obligaciones legales generales.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Area Card: Laboral -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Handshake between two professionals in an office"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSpUHIWPUKWAICkKc84_UOS206AV3BU_UV7AXJVucduJLQdABjqRsTMFqHJx0Q7mwnaU0Bt1Se0CROqd0tH6aizV3fb2MuLe5QK1gKb3yTLB4o9eg4IKZrAgechfV_6Qfo-SNV3tJWF_dsO-lgEdrK_qEyTTUyK5SYL3y8SM6Ak45MDh8wc1G43iMtbUrDdle5s-UCxr3y3rjXXv7Ruub-ksWFkvBHw4Zu1lrNf3n2LizkUVoUqEw_KYpqwUeEOerLOU5PLhXQatY" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">work</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho Laboral</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Defensa técnica especializada en despidos, accidentes de trabajo, convenios colectivos y
+                    asesoramiento preventivo para empresas.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Area Card: Familia -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Silhouettes of a family walking together at sunset"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx7bhJSWhJG3uEKselk0egliRCSSs7J7M1IubUxJFg1TEVLpJZLx0WDtOiRgmYUj4VRDkQYLxlIP39rmLwl7DZ1N7zV4qp2FJdNq9_NDCGp--C7j9u4K6eBKs96rIEJJ6AEVWPwLRyO0eQ0qkEra3dVlGTRLn9HeB2TETxxrXwji9DMMauDjg948kHUcg0shQcIK6VfnJYcITgAFy9hlrpslfl82isM7uHuE4YcBRuw8_w5shIAUo4L5QTZZ0t55FWqDTqLKrdeoM" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">family_restroom</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho de Familia</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Especialistas en divorcios, sucesiones, regímenes de comunicación y cuotas alimentarias con un
+                    enfoque humano y reservado.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Area Card: Comercial -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Business professionals working with charts and laptops"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgNcXqNXFSIHz3u2bdoG__om9uFz7AQ6Y6XgJtV3-WItdKIjG1N7xId1TQCN1vlI3UsRy3suBjtQWkA5TmRq-NK8qp0aFb5FF0GAaWB9H7XujoKWDEh_BU5gLirkE_3U5S-Nx0LLrb-NVyf-L9aN5xuNTx30ai12NYu2MwFXGLgHqsW-kBH-EB_1RwpAWdO8HLeS5TYB_nphFui9lPVNH27HxqUF05fJgz8b4RpONUwdnYLL7Kx-WeXMZD_Y4E_O0Jf8T8n5ucBCA" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">business_center</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho Comercial</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Asesoramiento societario, litigios corporativos, quiebras, marcas y patentes para emprendedores y
+                    empresas consolidadas.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Area Card: Penal -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Old library with rows of law books"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVBtnd0Zw2erWwRiAyWUy9riK1REilQDlkE2b0pWMHuuKFU3Mx5xJFTzTYKhPJM7cz388PUVI1EHGlXMULw2-HRsdEZyK6NzPPI9sUwBq0mJm3QwjLHJa4RW5WQ0FfXLrW_mqdAL5U3W6N6cGHAh-agaT0AF6d6IslefpQCiVkD8__A8yP_cAuTWiyPzyfHU1882Jnmk7dI-4qq8qmk2IPAwAs8Fb2dDFkFLpOIc366SICiJI7Ru1kwLZib67GFS1D3C3SxHMRdAE" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">security</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho Penal</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Representación legal estratégica en procesos penales, defensa criminal y asistencia en todas las
+                    etapas de la instrucción.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+              <!-- Area Card: Administrativo -->
+              <div
+                class="group bg-white shadow-sm service-card border-t-4 border-transparent hover:border-gold overflow-hidden transition-all">
+                <div class="h-56 overflow-hidden relative">
+                  <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-all duration-500"></div>
+                  <img alt="Paperwork and a pen on a mahogany desk"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvLUF3Bc0JJxFyjWRxpwqELyOuo249EM4U3ZEV4zuKNcvl7_eSJ69coLwSHWx2JpBUzkgPFqlu3udCj_sccXXvJ3Vr1Hg9axT3dyPyLFn-Aus-5K-MtO5KSMDCkBNh-_wkvJWsYbuTW497PpSaddoJtyTDhZ4LT4Jp91oN9aEcmMIelam-BrqDSGPcXmLsxVH7CPPhWHvCbVWJbKeLz_ult6zrl2eZBOu1PQxDdgwBb06uOP9RWdmUhCI64yfDpIYxPSBzGVUbp24" />
+                </div>
+                <div class="p-8">
+                  <div class="text-gold mb-4">
+                    <span class="material-symbols-outlined text-3xl">account_balance</span>
+                  </div>
+                  <h3 class="text-2xl font-serif mb-4 text-navy">Derecho Administrativo</h3>
+                  <p class="text-gray-600 leading-relaxed mb-6">
+                    Gestión de recursos y reclamos ante organismos públicos, licitaciones y litigios contra el Estado en
+                    diversos niveles.
+                  </p>
+                  <a class="inline-flex items-center text-gold font-bold text-xs uppercase tracking-[0.2em] hover:text-navy transition-colors"
+                    href="#">
+                    Saber más <span class="material-symbols-outlined text-sm ml-2">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Call to Action Section -->
+        <section class="bg-navy py-24 text-white overflow-hidden relative">
+          <div class="absolute right-0 top-0 opacity-10 transform translate-x-1/4 -translate-y-1/4">
+            <svg class="w-[600px] h-[600px]" fill="currentColor" viewbox="0 0 24 24">
+              <path d="M12 3L4 6v6c0 5.25 3.41 10.16 8 11.39 4.59-1.23 8-6.14 8-11.39V6l-8-3z"></path>
+            </svg>
+          </div>
+          <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+              <h2 class="text-gold text-sm font-bold tracking-[0.3em] uppercase mb-4">Atención Personalizada</h2>
+              <h3 class="text-4xl md:text-5xl font-serif mb-8 leading-tight">¿Necesita asesoramiento legal específico?
+              </h3>
+              <p class="text-xl text-silver mb-10 leading-relaxed">
+                Nuestro equipo de expertos está listo para analizar su caso con la máxima confidencialidad y rigor
+                profesional. La primera consulta informativa es el inicio de su defensa.
+              </p>
+              <div class="flex flex-col sm:flex-row items-center gap-6">
+                <a class="inline-block bg-gold text-navy px-10 py-4 font-bold uppercase tracking-widest text-sm hover:bg-white transition-colors duration-300"
+                  href="#">
+                  Agendar Reunión
+                </a>
+                <a class="inline-block bg-transparent text-white px-10 py-4 font-bold uppercase tracking-widest text-sm hover:bg-white transition-colors duration-300 border border-white hover:bg-white hover:text-navy px-10 py-4"
+                  href="#">
+                  Contáctenos Ahora
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+<footer class="bg-navy text-white py-12 border-t border-gray-800">
+      <div class="container mx-auto px-6 grid md:grid-cols-4 gap-12">
+        <div class="col-span-1 md:col-span-2">
+          <div class="flex items-center space-x-2 mb-6" data-purpose="logo-container">
+            <div class="w-10 h-10 border-2 border-gold flex items-center justify-center">
+              <span class="text-gold font-serif text-2xl">R</span>
+            </div>
+            <span class="text-xl font-serif tracking-widest uppercase">Ruiz y Asociados</span>
+          </div>
+          <p class="text-silver text-sm max-w-sm mb-8 leading-relaxed">
+            Líderes en servicios jurídicos integrales con presencia internacional. Tres décadas transformando el
+            ejercicio del derecho.
+          </p>
+          <div class="flex gap-4">
+            <a class="size-10 border border-gray-700 flex items-center justify-center text-silver hover:text-gold transition-colors"
+              href="#">
+              <span class="material-symbols-outlined text-lg">share</span>
+            </a>
+            <a class="size-10 border border-gray-700 flex items-center justify-center text-silver hover:text-gold transition-colors"
+              href="#">
+              <span class="material-symbols-outlined text-lg">mail</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-serif text-white text-lg mb-6">Navegación</h4>
+          <ul class="space-y-4 text-xs uppercase tracking-widest text-silver">
+            <li><a class="hover:text-gold transition-colors" href="#">Inicio</a></li>
+            <li><a class="hover:text-gold transition-colors" href="#">Especialidades</a></li>
+            <li><a class="hover:text-gold transition-colors" href="#">Nosotros</a></li>
+            <li><a class="hover:text-gold transition-colors" href="#">Equipo</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-serif text-white text-lg mb-6">Contacto</h4>
+          <ul class="space-y-6 text-sm text-silver">
+            <li class="flex items-start gap-4">
+              <span class="material-symbols-outlined text-gold">location_on</span>
+              <span>Av. Corrientes 1234, CABA, Argentina</span>
+            </li>
+            <li class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-gold">call</span>
+              <span>11 6999 7741</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="container mx-auto px-6 pt-12 mt-12 border-t border-gray-800 flex flex-col md:flex-row justify-between text-[10px] text-gray-500 uppercase tracking-widest gap-4">
+        <p>© 2026 Ruiz y Asociados. Todos los derechos reservados.</p>
+        <div class="flex gap-6">
+          <a class="hover:text-gold" href="#">Políticas de Privacidad</a>
+          <a class="hover:text-gold" href="#">Términos de Servicio</a>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </div>
+  <script src="../app.js"></script>
+</body>
+
+</html>
